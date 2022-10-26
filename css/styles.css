@@ -1,6 +1,6 @@
 
 
-/**********For MOBILE SCREEN*************/
+/**********For 1440px*************/
 @media screen and (min-width: 375px) {
 body{
     margin: 0;
@@ -26,7 +26,9 @@ body{
     float: left;
     margin-right: 50px;
 }
-
+.img{
+    display: none;
+}
 .h1-1{
     font-family: 'Fraunces', serif;
     font-weight: 700;
@@ -96,7 +98,7 @@ span{
 }
 }
 
-/*************NORMAL WINDOW****************/
+/*************for mobile****************/
 @media screen and (min-width: 1440px) {
 body{
     margin: 0;
@@ -115,11 +117,12 @@ body{
     text-align: left;
     font-size: large;
 }
-
 .top-img{
-    width: 50%;
+    display: none;
+}
+.img{
+    width: 100%;
     border: 50px;
-    float: left;
     margin-right: 50px;
 }
 
